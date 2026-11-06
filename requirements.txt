@@ -1,0 +1,4 @@
+customtkinter>=5.2
+tkinterdnd2>=0.4
+# nur zum Bauen der EXE:
+pyinstaller>=6.0

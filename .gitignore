@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build-Ausgaben (EXE und Installer gehören ins GitHub-Release, nicht ins Repo)
+build/
+dist/
+installer_output/
+*.spec
+
+# Mitgelieferte FFmpeg-Binärdateien (beim Build automatisch eingebunden)
+ffmpeg.exe
+ffprobe.exe
+
+# System
+.DS_Store
+Thumbs.db
+*.log
